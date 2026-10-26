@@ -10,7 +10,7 @@ function SideBar({ fecharSideBar }) {
                 animate={{x: 0}}
                 transition={{duration: 0.5}}
                 exit={{ x: "100%"}}
-                className="flex flex-col absolute top-0 right-0 p-6 shadow-2xl h-screen bg-zinc-950">
+                className="flex flex-col absolute top-0 right-0 p-6 shadow-2xl h-dvh bg-zinc-950">
                     <div className="flex justify-between items-center border-b border-zinc-800 pb-6">
                         <div>
                             <p className="tracking-[0.3em] text-xs text-zinc-500">

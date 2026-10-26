@@ -5,10 +5,11 @@ import SideBar from "./components/sideBar";
 
 function App() {
 
+  
   const[sideBarAberta, setSideBarAberta] = useState(false);
 
   return (
-    <>
+    <> 
       <Header abrirSideBar={() => setSideBarAberta(true)}/>
       <AnimatePresence>
         {sideBarAberta && (
@@ -18,6 +19,6 @@ function App() {
       
     </>
   );
-}
+} 
 
 export default App;

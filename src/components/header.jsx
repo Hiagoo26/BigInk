@@ -18,7 +18,7 @@ function Header({ abrirSideBar }) {
                     <li><a href="#">Galeria</a></li>
                     <li><a href="#">Avaliações</a></li>
                     <li>
-                        <button className="border-0 border-white rounded-xl p-2 text-black bg-white transition-colors duration-500 hover:cursor-pointer hover:border-1  hover:text-white hover:bg-black">
+                        <button className="rounded-xl p-2 text-black bg-white transition-colors duration-500 hover:cursor-pointer hover:text-white hover:bg-zinc-900">
                         Agendar
                         </button>
                     </li>
