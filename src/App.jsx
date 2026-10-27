@@ -2,6 +2,7 @@ import { useState } from "react";
 import { AnimatePresence } from "motion/react";
 import Header from "./components/header";
 import SideBar from "./components/sideBar";
+import Home from "./pages/Home/Home";
 
 function App() {
 
@@ -16,7 +17,7 @@ function App() {
           <SideBar fecharSideBar={() => setSideBarAberta(false)} />
         )}
       </AnimatePresence>
-      
+      <Home/>
     </>
   );
 } 
