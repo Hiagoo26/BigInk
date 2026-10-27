@@ -15,8 +15,8 @@ function Hero() {
                      <button className=" rounded-xl px-4 py-2 w-fit font-medium text-black bg-white transition-colors duration-300 hover:bg-zinc-400 hover:cursor-pointer">
                         Agendar sessão <MoveUpRight className="inline" size={14}/>
                     </button>
-                    <div className="absolute -bottom-58 left-1/2 translate-x-1/2 h-full rotate-270 lg:-right-8 lg:-bottom-0 lg:left-auto lg:top-0 lg:translate-x-0 lg:rotate-180">
-                        <InkTransition />
+                    <div className="absolute -right-8 top-0 h-full rotate-180">
+                        <InkTransition/>
                     </div>
                 </section>
                 <section className="h-[60dvh] overflow-hidden lg:h-screen lg:w-1/2">
