@@ -25,7 +25,7 @@ function Header({ abrirSideBar }) {
                 </ul>
             </nav>
 
-            <button onClick={abrirSideBar} className="border-0 text-white bg-black hover:cursor-pointer lg:hidden">
+            <button onClick={abrirSideBar} className="border-0 text-white bg-zinc-950 hover:cursor-pointer lg:hidden">
                 <Menu size={26}/>
             </button>
         </header>
