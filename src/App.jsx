@@ -3,6 +3,7 @@ import { AnimatePresence } from "motion/react";
 import Header from "./components/header";
 import SideBar from "./components/sideBar";
 import Home from "./pages/Home/Home";
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         )}
       </AnimatePresence>
       <Home/>
+      <Footer/>
     </>
   );
 } 
