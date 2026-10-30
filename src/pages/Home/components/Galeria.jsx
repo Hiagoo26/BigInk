@@ -1,3 +1,4 @@
+import { ArrowUpRight } from "lucide-react";
 import tatuagem1 from "../../../assets/tatuagem1.jpeg";
 import tatuagem2 from "../../../assets/tatuagem2.jpeg";
 
@@ -12,7 +13,7 @@ function Galeria() {
                         <div className="border border-zinc-950 rounded-xl h-[400px] overflow-hidden lg:h-[600px]">
                             <img className="h-full w-full object-cover" src={tatuagem1} alt="Tatuagem"/>
                         </div>
-                        <p className="text-sm text-zinc-950">Tatuagem Esqueci o Anime</p>
+                        <p className="text-sm text-zinc-950">Tatuagem Soul Eater</p>
                     </div>
                     <div className="flex flex-col gap-1">
                         <div className="border border-zinc-950 rounded-xl h-[400px] overflow-hidden lg:h-[600px]">
@@ -27,6 +28,7 @@ function Galeria() {
                         <p className="text-sm text-zinc-950">Tatuagem Luffy - One Piece</p>
                     </div>
                 </div>
+                <p className="mt-5 text-center text-semibold text-zinc-950 lg:text-xl">Confira mais artes <ArrowUpRight className="inline" size={14}/></p>
             </section>
         </>
     )

@@ -1,5 +1,6 @@
 import Hero from "./components/Hero";
 import Galeria from "./components/Galeria"
+import Avaliacao from "./components/Avaliacao";
 
 function Home() {
     return (
@@ -28,6 +29,7 @@ function Home() {
                     </div>
                 </section>
                 <Galeria/>
+                <Avaliacao/>
             </main>
         </>
     )
