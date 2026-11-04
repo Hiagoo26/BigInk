@@ -15,10 +15,10 @@ function Footer() {
                     <div className="flex flex-col gap-4">
                         <h3 className="font-semibold tracking-wide text-lg uppercase text-white">Navegação</h3>
                         <nav className="flex flex-col gap-3 text-sm text-zinc-400">
-                            <a href="#" className="hover:text-white transition-colors">Início</a>
-                            <a href="#" className="hover:text-white transition-colors">Sobre Nós</a>
-                            <a href="#" className="hover:text-white transition-colors">Galeria</a>
-                            <a href="#" className="hover:text-white transition-colors">Avaliações</a>
+                            <a href="#hero" className="hover:text-white transition-colors">Início</a>
+                            <a href="#sobre" className="hover:text-white transition-colors">Sobre Nós</a>
+                            <a href="#galeria" className="hover:text-white transition-colors">Galeria</a>
+                            <a href="#avaliacoes" className="hover:text-white transition-colors">Avaliações</a>
                             <a href={`https://wa.me/5514998047149?text=${encodeURIComponent("Olá, gostaria de fazer um agendamento.")}`} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Agendamento</a>
                         </nav>
                     </div>

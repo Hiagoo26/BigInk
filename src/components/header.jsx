@@ -10,13 +10,13 @@ function Header({ abrirSideBar }) {
                 <nav className="hidden lg:block">
                     <ul className="flex flex-row justify-center items-center gap-10 text-sm font-medium tracking-wide text-zinc-300 xl:gap-14">
                         <li>
-                            <a href="#" className="transition-colors duration-300 hover:text-white">Sobre Nós</a>
+                            <a href="#sobre" className="transition-colors duration-300 hover:text-white">Sobre Nós</a>
                         </li>
                         <li>
-                            <a href="#" className="transition-colors duration-300 hover:text-white">Galeria</a>
+                            <a href="#galeria" className="transition-colors duration-300 hover:text-white">Galeria</a>
                         </li>
                         <li>
-                            <a href="#" className="transition-colors duration-300 hover:text-white">Avaliações</a>
+                            <a href="#avaliacoes" className="transition-colors duration-300 hover:text-white">Avaliações</a>
                         </li>
                         <li>
                             <a href={`https://wa.me/5514998047149?text=${encodeURIComponent("Olá, gostaria de fazer um agendamento.")}`} target="_blank" rel="noopener noreferrer" className="rounded-lg bg-white px-5 py-2.5 text-sm font-semibold text-zinc-950 transition-all duration-300 hover:bg-zinc-200 hover:shadow-lg hover:shadow-white/5">Agendar</a>
