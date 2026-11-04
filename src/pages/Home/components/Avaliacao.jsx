@@ -4,7 +4,7 @@ import { motion } from "motion/react"
 function Avaliacao() {
     return (
         <>
-            <section className="flex flex-col justify-center p-6 bg-zinc-900 lg:p-16">
+            <section className="flex flex-col justify-center p-6 overflow-x-clip bg-zinc-900 lg:p-16">
                 <h2 className="pb-6 tracking-wide uppercase font-title font-semibold text-5xl text-white lg:text-[10rem]">Avaliações</h2>
                 <p className="text-zinc-400 lg:text-xl">Veja oque nossos clientes acham</p>
                 <div className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
