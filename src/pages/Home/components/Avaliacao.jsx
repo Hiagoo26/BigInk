@@ -1,4 +1,5 @@
 import { Star } from "lucide-react";
+import { motion } from "motion/react"
 
 function Avaliacao() {
     return (
@@ -7,7 +8,12 @@ function Avaliacao() {
                 <h2 className="pb-6 tracking-wide uppercase font-title font-semibold text-5xl text-white lg:text-[10rem]">Avaliações</h2>
                 <p className="text-zinc-400 lg:text-xl">Veja oque nossos clientes acham</p>
                 <div className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-                    <div className="flex flex-col gap-5 rounded-xl border border-zinc-800 bg-zinc-950 p-6">
+                    <motion.div
+                    initial={{ opacity: 0, x: 50 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true, amount: 0.2 }}
+                    transition={{ duration: 0.6, ease: "easeOut" }}
+                    className="flex flex-col gap-5 rounded-xl border border-zinc-800 bg-zinc-950 p-6">
                         <div className="flex gap-1 text-yellow-500">
                             {[...Array(5)].map((valor, i) => (
                                 <Star key={i} size={18} fill="currentColor" />
@@ -18,8 +24,13 @@ function Avaliacao() {
                             <h3 className="font-semibold text-white">Cliente exemplo</h3>
                             <span className="text-xs text-zinc-500">Avaliação demonstrativa</span>
                         </div>
-                    </div>
-                    <div className="flex flex-col gap-5 rounded-xl border border-zinc-800 bg-zinc-950 p-6">
+                    </motion.div>
+                    <motion.div 
+                    initial={{ opacity: 0, x: 50 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true, amount: 0.2 }}
+                    transition={{ duration: 0.6, ease: "easeOut" }}
+                    className="flex flex-col gap-5 rounded-xl border border-zinc-800 bg-zinc-950 p-6">
                         <div className="flex gap-1 text-yellow-500">
                             {[...Array(5)].map((valor, i) => (
                                 <Star key={i} size={18} fill="currentColor" />
@@ -30,8 +41,13 @@ function Avaliacao() {
                             <h3 className="font-semibold text-white">Cliente exemplo</h3>
                             <span className="text-xs text-zinc-500">Avaliação demonstrativa</span>
                         </div>
-                    </div>
-                    <div className="flex flex-col gap-5 rounded-xl border border-zinc-800 bg-zinc-950 p-6">
+                    </motion.div>
+                    <motion.div
+                    initial={{ opacity: 0, x: 50 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true, amount: 0.2 }}
+                    transition={{ duration: 0.6, ease: "easeOut" }}
+                    className="flex flex-col gap-5 rounded-xl border border-zinc-800 bg-zinc-950 p-6">
                         <div className="flex gap-1 text-yellow-500">
                             {[...Array(5)].map((valor, i) => (
                                 <Star key={i} size={18} fill="currentColor" />
@@ -42,7 +58,7 @@ function Avaliacao() {
                             <h3 className="font-semibold text-white">Cliente exemplo</h3>
                             <span className="text-xs text-zinc-500">Avaliação demonstrativa</span>
                         </div>
-                    </div>
+                    </motion.div>
                 </div>
             </section>
         </>
