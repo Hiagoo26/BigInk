@@ -7,7 +7,7 @@ function Home() {
         <>
             <main>
                 <Hero/>
-                <section id="sobre" className="flex flex-col p-6 bg-zinc-950 lg:p-16">
+                <section id="sobre" className="flex flex-col p-6 scroll-mt-18 bg-zinc-950 lg:p-16">
                     <div className="lg:mb-10 lg:py-10">
                         <h2 className="border-b border-zinc-800 pb-6 tracking-wide uppercase font-title font-semibold text-5xl text-white lg:text-[10rem]">Sobre Nós</h2>
                         <p className="mt-4 text-left text-sm leading-7 text-zinc-400 lg:text-lg lg:leading-8">

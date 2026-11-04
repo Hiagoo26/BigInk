@@ -5,7 +5,7 @@ import InkTransition from "./InkTransition";
 function Hero() {
     return (
         <>
-            <div id="hero" className="flex flex-col overflow-x-clip bg-zinc-900 lg:flex-row lg:h-screen">
+            <div id="hero" className="flex flex-col overflow-x-clip scroll-mt-18 bg-zinc-900 lg:flex-row lg:h-screen">
                 <section className="flex flex-col justify-center gap-3 relative p-6 z-1 h-[50dvh] lg:h-screen lg:gap-6 lg:w-1/2 lg:p-16 lg:gap-7">
                     <h1 className="tracking-wide uppercase font-title font-semibold text-5xl text-white lg:text-[10rem]">
                         Big ink

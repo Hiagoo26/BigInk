@@ -6,7 +6,7 @@ import tatuagem2 from "../../../assets/tatuagem2.jpeg";
 function Galeria() {
     return (
         <>
-            <section id="galeria" className="flex flex-col p-6 bg-gray-200 lg:p-16">
+            <section id="galeria" className="flex flex-col p-6 scroll-mt-18 bg-gray-200 lg:p-16">
                 <h2 className="tracking-wide uppercase font-title font-semibold text-5xl text-zinc-900 lg:text-[10rem]">Galeria</h2>
                 <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 p-6">
                     <div className="flex flex-col gap-1">
