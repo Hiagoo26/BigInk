@@ -51,11 +51,11 @@ function SideBar({ fecharSideBar }) {
                     </nav>
 
                     <div className="mt-auto border-t border-zinc-800 pt-6">
-                        <button className="flex justify-center items-center gap-3 rounded-lg px-4 py-3 w-full font-semibold text-zinc-500 transition-colors hover:bg-zinc-300">
+                        <a href={`https://wa.me/5514998047149?text=${encodeURIComponent("Olá, gostaria de fazer um agendamento.")}`} target="_blank" rel="noopener noreferrer" className="flex justify-center items-center gap-3 rounded-lg px-4 py-3 w-full font-semibold text-zinc-500 transition-colors hover:bg-zinc-300">
                             <CalendarCheck size={19}/>
                             Agendar sessão
                             <ArrowUpRight size={17}/>
-                        </button>
+                        </a>
                     </div>
                         
                 </motion.aside>

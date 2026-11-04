@@ -19,12 +19,12 @@ function Header({ abrirSideBar }) {
                             <a href="#" className="transition-colors duration-300 hover:text-white">Avaliações</a>
                         </li>
                         <li>
-                            <a href={`https://wa.me/5514998047149?text=${encodeURIComponent("Olá,gostaria de fazer um agendamento.")}`} target="_blank" rel="noopener noreferrer" className="rounded-lg bg-white px-5 py-2.5 text-sm font-semibold text-zinc-950 transition-all duration-300 hover:bg-zinc-200 hover:shadow-lg hover:shadow-white/5">Agendar</a>
+                            <a href={`https://wa.me/5514998047149?text=${encodeURIComponent("Olá, gostaria de fazer um agendamento.")}`} target="_blank" rel="noopener noreferrer" className="rounded-lg bg-white px-5 py-2.5 text-sm font-semibold text-zinc-950 transition-all duration-300 hover:bg-zinc-200 hover:shadow-lg hover:shadow-white/5">Agendar</a>
                         </li>
                     </ul>
                 </nav>
 
-                <button onClick={abrirSideBar} className="border-0 text-white bg-zinc-950 hover:cursor-pointer lg:hidden">
+                <button onClick={abrirSideBar} className="border-0 text-white hover:cursor-pointer lg:hidden">
                     <Menu size={26}/>
                 </button>
             </header>

@@ -12,9 +12,9 @@ function Hero() {
                         <span className="block tracking-wide text-xl text-zinc-500 lg:text-5xl">Sua história.</span>
                     </h1>
                     <p className="text-zinc-400 lg:text-xl">Transformando sentimentos em arte.</p>
-                     <button className=" rounded-xl px-4 py-2 w-fit font-medium text-black bg-white transition-colors duration-300 hover:bg-zinc-400 hover:cursor-pointer lg:px-6 lg:py-3">
+                    <a href={`https://wa.me/5514998047149?text=${encodeURIComponent("Olá, gostaria de fazer um agendamento.")}`} target="_blank" rel="noopener noreferrer" className=" rounded-xl px-4 py-2 w-fit font-medium text-black bg-white transition-colors duration-300 hover:bg-zinc-400 hover:cursor-pointer lg:px-6 lg:py-3">
                         Agendar sessão <ArrowUpRight className="inline" size={14}/>
-                    </button>
+                    </a>
                     <div className="absolute -right-8 top-0 h-full rotate-180">
                         <InkTransition/>
                     </div>

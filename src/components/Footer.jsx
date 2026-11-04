@@ -19,18 +19,18 @@ function Footer() {
                             <a href="#" className="hover:text-white transition-colors">Sobre Nós</a>
                             <a href="#" className="hover:text-white transition-colors">Galeria</a>
                             <a href="#" className="hover:text-white transition-colors">Avaliações</a>
-                            <a href="#" className="hover:text-white transition-colors">Agendamento</a>
+                            <a href={`https://wa.me/5514998047149?text=${encodeURIComponent("Olá, gostaria de fazer um agendamento.")}`} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Agendamento</a>
                         </nav>
                     </div>
                     <div className="flex flex-col gap-4">
                         <h3 className="font-semibold tracking-wide text-lg uppercase text-white">Contato</h3>
                         <div className="flex flex-col gap-4 text-sm text-zinc-400">
-                            <a href="#" className="flex items-center gap-2 hover:text-white transition-colors">
+                            <a href="https://www.instagram.com/gustiki_tattoo/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white transition-colors">
                                 <Camera size={18} />
                                 Instagram
                                 <ArrowUpRight size={14} />
                             </a>
-                            <a href="#" className="flex items-center gap-2 hover:text-white transition-colors">
+                            <a href="https://wa.me/5514998047149" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white transition-colors">
                                 <MessageCircle size={18} />
                                 WhatsApp
                                 <ArrowUpRight size={14} />
