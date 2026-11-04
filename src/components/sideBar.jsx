@@ -4,12 +4,13 @@ import { motion } from "motion/react";
 function SideBar({ fecharSideBar }) {
     return (
         <>
-            <div className="fixed inset-0 z-50 bg-black/60">
-                <motion.aside 
+            <div onClick={fecharSideBar} className="fixed inset-0 z-50 bg-black/60">
+                <motion.aside
                 initial={{x: "100%"}}
                 animate={{x: 0}}
                 transition={{duration: 0.5}}
                 exit={{ x: "100%"}}
+                onClick={(e) => e.stopPropagation()} 
                 className="flex flex-col absolute top-0 right-0 p-6 shadow-2xl h-dvh bg-zinc-950">
                     <div className="flex justify-between items-center border-b border-zinc-800 pb-6">
                         <div>

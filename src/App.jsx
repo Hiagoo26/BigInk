@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { AnimatePresence } from "motion/react";
 import Header from "./components/header";
 import SideBar from "./components/sideBar";
@@ -9,6 +9,14 @@ function App() {
 
   
   const[sideBarAberta, setSideBarAberta] = useState(false);
+  
+  useEffect(() => {
+    document.body.classList.toggle("overflow-hidden", sideBarAberta);
+
+    return () => {
+      document.body.classList.remove("overflow-hidden");
+    };
+  }, [sideBarAberta])
 
   return (
     <> 
